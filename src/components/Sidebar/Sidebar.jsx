@@ -119,7 +119,7 @@ const Sidebar = () => {
             p={2}
             w={{ base: 10, md: "full" }}
             mt={"auto"}
-            // justifyContent={{ base: "center", md: "flex-start" }}
+            justifyContent={{ base: "center", md: "flex-start" }}
           >
             <BiLogOut />
             <Box display={{ base: "none", md: "block" }}>Logout</Box>
