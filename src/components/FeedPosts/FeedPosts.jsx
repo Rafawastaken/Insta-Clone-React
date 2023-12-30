@@ -15,7 +15,7 @@ const FeedPosts = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 200);
   });
 
   return (
